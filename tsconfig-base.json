@@ -8,6 +8,11 @@
         "noUnusedParameters": true,
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
-        "composite": true
+        "composite": true,
+		"baseUrl": "./",
+		"paths": {
+			"@peer-core/*": ["core/src/*"],
+			"@peer-animals/*": ["animals/src/*"]
+		}
     }
 }
